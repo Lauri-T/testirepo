@@ -1,0 +1,33 @@
+/*
+* Variables
+* ======================
+*/
+
+
+// This is an example variable setup. Edit these according to your
+// project's needs or just replace with your preferred setup.
+
+
+/*
+* Typography
+*/
+
+$font-family: Helvetica, Arial, sans-serif;
+$font-size:   16px;
+$line:        24px;
+
+
+/*
+* Colors
+*/
+
+$black: #222222;
+$white: #ffffff;
+
+
+/*
+* Paths
+*/
+
+$img-url: '../img/'; // Image path for the img-url mixin in modules/_utility.scss
+
