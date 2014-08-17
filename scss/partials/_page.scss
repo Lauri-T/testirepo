@@ -1,0 +1,42 @@
+/*
+* Page CSS
+* ======================
+* CSS that affects all pages.
+*/
+
+.testikkels{
+  text-decoration:none;
+  display:block;
+  min-height:200px;
+  max-width:90%;
+  margin:25px 5% 0;
+  /* fallback */ background-color: #1a82f7; 
+  /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727)); 
+  /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #2F2727, #1a82f7); 
+  /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #2F2727, #1a82f7); 
+  /* IE 10 */ background: -ms-linear-gradient(top, #2F2727, #1a82f7); 
+  /* Opera 11.10+ */ background: -o-linear-gradient(top, #2F2727, #1a82f7);
+  &:hover{
+    /* fallback */ background-color: #2F2727; 
+    /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7)); 
+    /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #1a82f7, #2F2727); 
+    /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #1a82f7, #2F2727); 
+    /* IE 10 */ background: -ms-linear-gradient(top, #1a82f7, #2F2727); 
+    /* Opera 11.10+ */ background: -o-linear-gradient(top, #1a82f7, #2F2727);
+  }
+  .centering{
+    width:100%;
+    height:200px;
+    text-align:center;
+    display:table;
+    p{
+      display:table-cell;
+      color:#fff;
+      margin:0;
+      font-weight:bold;
+      font-size:20px;
+      vertical-align:middle;
+      text-shadow: 2px 2px #000000;
+    }
+  }
+}
